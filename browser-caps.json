@@ -1,0 +1,8 @@
+{
+	"desiredCapabilities" :
+    {
+	    "browserName": "firefox",
+	    "platform": "MAC",
+	
+    }
+}
