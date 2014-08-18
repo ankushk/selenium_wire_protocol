@@ -2,7 +2,6 @@
 #!/bin/bash
 
 SELENIUM_SERVER="http://127.0.0.1:4444/wd/hub"
-testing="{"status":0,"sessionId":"e2fd77dc-fbfd-4f9e-8160-d86b313abf80","value":{"platform":"MAC","acceptSslCerts":true,"javascriptEnabled":true,"browserName":"firefox","rotatable":false,"locationContextEnabled":true,"webdriver.remote.sessionid":"e2fd77dc-fbfd-4f9e-8160-d86b313abf80","version":"31.0","cssSelectorsEnabled":true,"databaseEnabled":true,"handlesAlerts":true,"nativeEvents":false,"webStorageEnabled":true,"applicationCacheEnabled":true,"takesScreenshot":true},"state":null,"class":"org.openqa.selenium.remote.Response","hCode":107865609}"
 
 getParam () {
   if [ "$#" -ne 2 ]; then
